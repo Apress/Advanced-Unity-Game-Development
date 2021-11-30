@@ -1,0 +1,1066 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: -1044951656497883960}
+  - component: {fileID: 192575375}
+  - component: {fileID: 192575369}
+  - component: {fileID: 192575370}
+  - component: {fileID: 192575371}
+  - component: {fileID: 192575372}
+  - component: {fileID: 192575373}
+  - component: {fileID: 192575374}
+  m_Layer: 0
+  m_Name: GameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3023ef09d17a408d8d84b50a3e527eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  headLightsOn: 0
+  laps: 2
+  sceneName: Main13
+--- !u!114 &-1044951656497883960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f39335291094d1c9dd47df7f44736c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p0: {fileID: 192575374}
+  p1: {fileID: 192575374}
+  p2: {fileID: 192575374}
+  p3: {fileID: 192575371}
+  p4: {fileID: 192575370}
+  p5: {fileID: 192575369}
+  currentPlayer: {fileID: 192575374}
+  forceGameStart: 0
+  positions: 
+  sortingPositions: 0
+  currentIndex: 0
+  player1Index: 0
+  totalLaps: 10
+  gameSettingsSet: 0
+  gameSettingsSubSet: 0
+  debugOn: 0
+  gameWon: 0
+  gameRunning: 0
+  gamePaused: 0
+  trackHelpAccelOn: 0
+  trackHelpAccelTime: 0
+  trackHelpSlowOn: 0
+  trackHelpSlowTime: 0
+  trackHelpTurnOn: 0
+  trackHelpTurnTime: 0
+  raceTrack: 0
+  easyOn: 0
+  raceType: 0
+  waypointWidthOverride: 6
+  waypointZeroOverride: 1
+  trackHelpOn: 0
+  gameStateIndex: 0
+  sceneName: 
+  gameCamera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  accelOn: 0
+  newTouch: 0
+  touchScreen: 0
+  hudNew: {fileID: 0}
+  gameOverMenuScript: {fileID: 0}
+  audioBgroundSound: {fileID: 0}
+  difficulty: 0
+  scsMode: 0
+--- !u!82 &192575375
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bbc2224d20e94f34f82c5d4149e72506, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &192575369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 5
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}
+--- !u!114 &192575370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 4
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}
+--- !u!114 &192575371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 3
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}
+--- !u!114 &192575372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 2
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}
+--- !u!114 &192575373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 1
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}
+--- !u!114 &192575374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46102f1293f2646cfb7d14d6b9df1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+  gameState: {fileID: 0}
+  scriptActive: 1
+  scriptName: 
+  OFFTRACK_SECONDS: 6
+  WRONG_DIRECTION_SECONDS: 6
+  index: 0
+  player: {fileID: 0}
+  active: 1
+  controller: {fileID: 0}
+  cm: {fileID: 0}
+  mouseInput: {fileID: 0}
+  fpsInput: {fileID: 0}
+  home: {fileID: 0}
+  pause: 0
+  speedType: 0
+  playerType: 0
+  carType: 0
+  speed: 0
+  speedPrct: 0
+  speedPrctLimit: 0
+  maxSpeed: 200
+  position: 6
+  gravity: 11
+  time: 
+  timeNum: 0
+  totalTime: 0
+  hour: 0
+  min: 0
+  s: 0
+  ms: 0
+  offTrack: 0
+  offTrackTime: 0
+  wrongDirection: 0
+  wrongDirectionTime: 0
+  skippedWaypoint: 0
+  skippedWaypointTime: 0
+  gun: {fileID: 0}
+  gunBase: {fileID: 0}
+  camera: {fileID: 0}
+  rearCamera: {fileID: 0}
+  car: {fileID: 0}
+  carSensor: {fileID: 0}
+  ammo: 0
+  gunOn: 0
+  isBouncing: 0
+  isJumping: 0
+  isDrafting: 0
+  isShot: 0
+  isShotTime: 0
+  isHit: 0
+  isHitTime: 0
+  isMiss: 0
+  isMissTime: 0
+  lapComplete: 0
+  lapCompleteTime: 0
+  armorOn: 0
+  boostOn: 0
+  invincOn: 0
+  invincTime: 0
+  lifeTotal: 3
+  damage: 0
+  points: 0
+  alive: 1
+  maxForwardSpeedSlow: 50
+  maxSidewaysSpeedSlow: 12
+  maxBackwardsSpeedSlow: 5
+  maxGroundAccelerationSlow: 25
+  maxForwardSpeedNorm: 200
+  maxSidewaysSpeedNorm: 50
+  maxBackwardsSpeedNorm: 20
+  maxGroundAccelerationNorm: 100
+  maxForwardSpeedBoost: 250
+  maxSidewaysSpeedBoost: 60
+  maxBackwardsSpeedBoost: 30
+  maxGroundAccelerationBoost: 120
+  prepped: 0
+  audioListener: {fileID: 0}
+  waypointDistance: 0
+  waypointDistancePrev: 0
+  aiOn: 0
+  aiWaypointTime: 0
+  aiWaypointLastIndex: -1
+  aiWaypointIndex: 0
+  aiWaypointRoute: 0
+  aiTurnStrength: 1
+  aiSpeedStrength: 1
+  aiStrafeStrength: 0
+  aiSlide: 0
+  aiIsStuckMode: 0
+  aiIsStuck: 0
+  aiWaypointDistance: 0
+  aiRelativePoint: {x: 0, y: 0, z: 0}
+  aiTime1: 0
+  aiTime2: 0
+  aiSlowDownTime: 0
+  aiSlowDown: 0
+  aiSlowDownOn: 0
+  aiSlowDownDuration: 100
+  aiIsPassing: 0
+  aiPassingTime: 0
+  aiPassingMode: 0
+  aiHasTarget: 0
+  aiHasTargetTime: 0
+  aiIsReloading: 0
+  aiIsReloadingTime: 0
+  aiHasGainedLife: 0
+  aiHasGainedLifeTime: 0
+  aiIsLargeTurn: 0
+  aiIsLargeTurnSpeed: 0
+  aiLastLookAngle: 0
+  aiNextLookAngle: 0
+  aiNext2LookAngle: 0
+  aiMidLookAngle: 0
+  aiMid2LookAngle: 0
+  aiCanFire: 0
+  aiBoostTime: 0
+  aiBoostMode: 0
+  flame: {fileID: 0}
+  gunExplosion: {fileID: 0}
+  gunHitSmoke: {fileID: 0}
+  gunSmokeOn: 0
+  gunSmokeTime: 0
+  totalLaps: 3
+  currentLap: 0
+  aiWaypointJumpCount: 0
+  aiWaypointPassCount: 0
+  audioGunHit: {fileID: 0}
+  audioCarSound1: {fileID: 0}
+  audioCarSound2: {fileID: 0}
+  lightHeadLight: {fileID: 0}

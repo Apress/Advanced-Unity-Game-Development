@@ -1,0 +1,84 @@
+fileFormatVersion: 2
+guid: b6c84cead404beb4bb7ee6353499e298
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: _Body
+    100002: //RootNode
+    100004: Minigun_Base
+    100006: Minigun_Head
+    100008: Rudder
+    400000: _Body
+    400002: //RootNode
+    400004: Minigun_Base
+    400006: Minigun_Head
+    400008: Rudder
+    2300000: _Body
+    2300002: Minigun_Base
+    2300004: Minigun_Head
+    2300006: Rudder
+    3300000: _Body
+    3300002: Minigun_Base
+    3300004: Minigun_Head
+    3300006: Rudder
+    4300000: Rudder
+    4300002: Minigun_Head
+    4300004: Minigun_Base
+    4300006: _Body
+    7400000: Default Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

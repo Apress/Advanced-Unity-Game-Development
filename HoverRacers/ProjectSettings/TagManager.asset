@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hittable
+  - HittableNoY
+  - Players
+  - Waypoint
+  - BoostMarker
+  - JumpMarker
+  - BounceMarker
+  - SmallBoostMarker
+  - TinyBoostMarker
+  - InvincibilityMarker
+  - GunMarker
+  - SlowGunMarker
+  - HealthMarker
+  - ArmorMarker
+  - OilDrum
+  - OilDrumStack
+  - FullFunBox
+  - TrackHelpSlow
+  - TrackHelpTurn
+  - MediumBoostMarker
+  - TinyBoostMarker2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Waypoints
+  - Ignore Me
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

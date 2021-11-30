@@ -1,0 +1,10 @@
+Initial unity version: 2019.3.6f1
+
+**If there are errors in the Unity editor after this upgrade. Close the scene or go to a new empty scene. Clear the errors. Then open scene Main13 or Main14.
+
+Upgraded to: 2020.3.15f2
+Upgraded to: 2020.3.21f1
+Upgraded to: 2020.3.23f1
+
+Fixed a bug with the camera follow demo where the exit game menu screen was named wrong, legacy, and not picked up on init.
+Fixed a bug with the main menu screen keyboard and controller input issues.
