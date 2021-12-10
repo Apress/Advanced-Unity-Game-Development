@@ -11,4 +11,4 @@ This repository accompanies [*Advanced Unity Game Development*](https://link.spr
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
 ## Releases
-Release v1.1 corresponds to the code in the published book, without corrections or updates.
+Release v1.01 corresponds to the code in the published book, without corrections or updates.
